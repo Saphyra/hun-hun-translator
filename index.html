@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Magyar - Újmagyar fordító</title>
+    <meta charset="UTF-8">
+    <LINK rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+</head>
+<body>
+<p>Aki helytelenül ír, az helytelenül is olvas. Segítsünk nekik, hogy megértsék azt, amit közölni szeretnénk velük!</p>
+<p>Megjegyzés: Az újmagyar nyelv szavainak gyakorlatilag végtelen számú szinonimája miatt a fordítás nem mindig pontos. Amennyiben a fordított szöveg nem érthető még az újmagyarul író lény számára sem, fordítsa újra!</p>
+<textarea id="input" placeholder="Magyar"></textarea>
+<br>
+<button id="translate-button" onclick="window.translate()">Fordítás</button>
+<div id="result-container">
+    <fieldset>
+        <legend>Magyar</legend>
+        <div id="processed-input"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Újmagyar</legend>
+        <div id="translation"></div>
+    </fieldset>
+</div>
+</body>
+</html>
